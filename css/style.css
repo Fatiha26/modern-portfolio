@@ -303,16 +303,16 @@ span{
 #about
 {
     padding: 100px 15px;
-    margin-left: 20rem;
-    width: 70vw;
-    margin-top: -6rem;
+    margin-left: 30rem;
+    width: 75vw;
+    margin-top: -10rem;
 }
 
 .section-container{
    display: grid;
    grid-template-columns: 40% 60%;
-   gap: 8rem;
-   width: 60vw;
+   gap: 5rem;
+   width: 70vw;
    
 }
 .section_pic-container{
@@ -327,7 +327,7 @@ span{
 .about-details-container{
     justify-content: center;
     flex-direction: column;
-    width: 50rem;
+    width: 55rem;
     padding: 1rem 0;
 
 }
@@ -336,8 +336,7 @@ span{
     display: flex;
 }
 .about-pic{
-    border-radius: 2rem;
-    
+    border-radius: 2rem;  
     width: 26vw;
     height: 70vh;
 }
@@ -374,11 +373,14 @@ span{
     margin-bottom: 1rem;
 
 }
+
+
+
 .education{
     padding: 100px 15px;
-    margin-left: 20rem;
-    width: 70vw;
-    margin-top: -7rem;
+    margin-left: 30rem;
+    width: 72vw;
+    margin-top: -10rem;
 
 }
 
@@ -491,11 +493,11 @@ span{
  
 #projects
 {
-    background: var(--bg-color);
     color: #fff;
     padding: 4rem 3rem;
-    margin-left: 8rem;
-    width: 88vw;
+    margin-left: 20rem;
+    margin-top: -6rem;
+    width: 90vw;
 }
 .project-container{
     display: grid;
@@ -547,10 +549,10 @@ span{
 
 .services
 {
-    background: var(--bg-color);
     color: #fff;
     padding: 4rem 3rem;
-    margin-left: 12rem;
+    margin-left: 28rem;
+    margin-top: -6rem;
     width: 80vw;
 
 }
@@ -617,7 +619,7 @@ span{
 section.contact{
     background: var(--bg-color);
     padding: 4rem 3rem;
-    margin-left: 8rem;
+    margin-left: 20rem;
     width: 88vw;
  }
 .input-group{
@@ -685,3 +687,42 @@ footer{
     text-align: center;
     padding: 1rem 0;
 }
+
+
+
+
+.scroll-btn
+{
+    width: 50px;
+    height: 48px;
+    background: transparent;
+    border-radius: 50%;
+    position: fixed;
+    right: 6%;
+    bottom: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    scroll-behavior: smooth;
+
+}
+.scroll-btn:hover
+{
+    transition: 0.5s ease-out;  
+    color: #000; 
+    border: 1px solid #2E279D;
+}
+
+.scroll-btn i
+{
+    font-size: 25px;
+    padding-left: 12px;
+    padding-top: 11px;
+    color: #000;
+}
+
+.scroll-btn i:hover
+{
+    color: #1e272e;
+    transition: 0.5s ease-out;
+}
+

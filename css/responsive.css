@@ -202,21 +202,20 @@
 }
 
 
-@media(max-width:412px){
+@media(max-width:413px){
     
     .header{
         padding: 2rem 10% 2rem;
       }
     .logo{
-        font-size: 2.2rem;
+        font-size: 3rem;
        }
     .logo span{
-        font-size: 2rem;
+        font-size: 2.5rem;
        }
     .navbar{
-        position: absolute;
         left: 2%;
-        top: 18%;
+        top: 50%;
         border-right: none;
     }
     .navbar a i{
@@ -232,9 +231,11 @@
     .tooltip{
         display: none;
     }
-
+.home-content{
+    margin-top: 5rem;
+}
     .home{
-            padding-top: 12rem;
+            padding-top: 20rem;
         }
    
     .home-content h3{
@@ -256,28 +257,31 @@
         margin-left: 2rem;
     }
     
-/*
+
 #about
 {
     padding: 0;
     margin-left: 8rem;
-    width: 90vw;
-    margin-top: -1rem;
+    width: 80vw;
+    margin-top: -20rem;
+}
+.about-nav{
+    top: 10%;
+    left: 4%;
 }
 
 .section-container{
    grid-template-columns: repeat(1,1fr);
    gap: 4rem;
-   width: 90vw;   
+   width: 80vw;   
 }
 
      .about-container{
         display: block;
         gap: 2rem;
-        margin-left: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    width: 50%;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        width: 60%;
          
      }
      .details-container{
@@ -289,12 +293,13 @@
      .about-pic{
         width: 60vw;
         height: 30vh;
+        margin-left: 3rem;
      }
-.text-container p{
-    font-size: 1.2rem;
-    width: 60%;
+     .text-container p{
+         font-size: 1.2rem;
+         width: 60%;
 
-}
+       }
      .section-container{
         gap: 1rem;
      }
@@ -307,14 +312,23 @@
      .details-container p{
         font-size: 1rem;
      }
+     .education{
+        padding: 100px 15px;
+        margin-left: 8rem;
+        width: 80vw;
+        margin-top: -25rem;
+    
+    }
+
      .timeline-content{
-        padding: 15px 30px;
+        padding: 10px 25px;
     }
     .timeline-content p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 15px;
     }
     .timeline-content h3{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .timeline-content-inner{
         grid-template-columns: repeat(1,1fr);
@@ -323,22 +337,51 @@
         width: 100%;
         margin-top: 2px;
     }
-     section.contact{
-        min-height: 10vh;
-     }
-     section.contact .subheading{
-        margin-top: -4rem;
-     }
-    .input-group{
-        width: 100%;
-        gap: 1rem;
-    }
-   .project-container{
+
+    #projects
+{
+    padding: 2rem 1rem;
+    margin-left: 6rem;
+    margin-top: -20rem;
+    width: 85vw;
+}
+.home .project-nav{
+    top: 20%;
+}
+.project-container{
     margin: 5rem 2rem;
    }
    .details-container{
     width: 100%;
    }
+   .services
+{
+    padding: 2rem 1rem;
+    margin-left: 6rem;
+    margin-top: -25rem;
+    width: 90vw;
+
+}
+.home .skill-nav{
+    top: 10%;
+    left: 4%;
+}
+
+#contact{
+    padding: 2rem 1rem;
+    margin-left: 8rem;
+    margin-top: -20rem;
+    width: 80vw;
+ }
+
+    .input-group{
+        width: 100%;
+        gap: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+  
     .input-box i{
         font-size: 2rem;
         margin-right: .8rem;
@@ -347,10 +390,6 @@
     .input-box a{
         font-size: 1.2rem;
     }
-
-    .services .subheading{
-        margin-top: 5rem;
-     }
 
      
       .scroll-btn
@@ -377,13 +416,6 @@
     padding-top: 11px;
     color: #000;
 }
-      .subheading{
-        font-size: 1rem;
-        margin-top: 2rem;
-    }
-    .heading{
-        font-size: 3rem;
-    }
 
-*/
+
 }
