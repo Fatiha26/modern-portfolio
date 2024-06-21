@@ -11,148 +11,59 @@
     }
 }
 @media(max-width:991px){
-    .logo{
-        font-size: 4rem;
+    header{
+        padding: 2rem 3%;
     }
-        .navbar a i{
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            
-        }
-        .home{
-            padding-top: 80rem;
-        }
-        .home-content{
-            padding-top: 10rem;
-    
-        }
-    
-        .home-content h3{
-            font-size: 2.6rem;
-        }
-        .home-content h1{
-            font-size: 8rem;
-            margin-top: 3rem;
-        }
-        .home-content p{
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        #about
-        {
-            padding: 0;
-            width: 65vw;
-            margin-top: -80rem;
-        }
-        .about-nav{
-            top: 10%;
-            left: 4%;
-        }
-        .section-container{
-            margin-top: 2rem;
-            grid-template-columns: repeat(1,1fr); 
-            gap: 3rem;
-            width: 67vw;
-            gap: 2rem;
-           padding: 1rem 1rem;
-        }
-        .about-pic{
-            width: 50vw;
-            height: 50vh;
-        }
-       
-        .text-container p{
-            font-size: 1.3rem;
-        
-        }
-       
-        .details-container i{
-            font-size: 4rem;
-        }
-    
-        .education{
-            margin-left: 28rem;
-            width: 70vw;
-            margin-top: -90rem;
-        
-        }
-        .timeline-content{
-            padding: 15px 25px;
-        }
-        .timeline-content p{
-            font-size: 1rem;
-            line-height: 15px;
-        }
-        .timeline-content h3{
-            font-size: 1.2rem;
-        }
-        .timeline-content-inner{
-            grid-template-columns: repeat(2,1fr);
-            gap: 2rem;
-        }
-        .timeline-content-inner .certificate-img img{
-            width: 100%;
-            margin-top: 10px;
-        }
-        .timeline-items{
-            padding: 0 1rem;
-          }
-          .timeline-dot
-          {
-            left: -10px;
-          }
-       
-        .services-container{
-            grid-template-columns: repeat(3,1fr);
-        }
-        .services
-        {
-            padding: 2rem 1rem;
-            margin-left: 23rem;
-            margin-top: -83rem;
-            width: 80vw;
-        
-        }
-    
-        #projects
-    {
-        padding: 2rem 1rem;
-        margin-left: 20rem;
-        margin-top: -83rem;
-        width: 80vw;
+    .home-img{
+        width: 100%;
     }
+
+    .timeline-items::before{
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even){
+        padding-left: 37px;
+    }
+    .timeline-dot{
+        left: 0;
+    }
+    .services{
+        padding-bottom: 7rem;
+    }
+    .input-group{
+        width: 50vw;
+        margin: 2rem auto;
+        gap: 3rem;
+    }
+
     .project-container{
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
-        margin: 5rem 7rem;
     }
-    #contact{
-        padding: 2rem 1rem;
-        margin-left: 25rem;
-        margin-top: -75rem;
-        width: 75vw;
-     } 
-        .footer-text{
-            font-size: 1.5rem;
-        }
-        .scroll-btn
-          {
-              width: 40px;
-              height: 38px;
-              border-radius: 50%;
-              position: fixed;
-              left: 8%;
-              top: 70%;
-              background: transparent;
-          
-          }
-          .scroll-btn i
-          {
-              font-size: 20px;
-              padding-left: 10px;
-              padding-top: 10px;
-              color: #000;
-          }
+    .project-btn{
+        margin-right: 1rem;
+        border: 1px solid #000;
+    }
+
+    .scroll-btn
+{
+    width: 50px;
+    height: 48px;
+    background: #2E279D;
+    border-radius: 50%;
+    position: fixed;
+    right: 6%;
+    bottom: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    scroll-behavior: smooth;
+
+}
 
 }
 
@@ -365,7 +276,7 @@
         font-size: 2.5rem;
        }
     .navbar{
-        left: 2%;
+        left: -1%;
         top: 50%;
         border-right: none;
     }
@@ -378,16 +289,11 @@
         padding-top: 0.5rem;
         
     }
-    .tooltip
-    {
-        z-index: 9999;
-    }
-
-.home-content{
-    margin-top: 5rem;
-}
+   .home-content{
+         margin-top: -8rem;
+}   
     .home{
-            padding-top: 20rem;
+            padding-top: 10rem;
         }
    
     .home-content h3{
@@ -415,10 +321,11 @@
     padding: 0;
     margin-left: 10rem;
     width: 80vw;
-    margin-top: -20rem;
+    margin-top: -10rem;
+    overflow: hidden;
 }
 .about-nav{
-    top: 10%;
+    top: 20%;
     left: 4%;
 }
 
@@ -467,7 +374,7 @@
         padding: 100px 15px;
         margin-left: 8rem;
         width: 80vw;
-        margin-top: -25rem;
+        margin-top: -15rem;
     
     }
 
@@ -493,7 +400,7 @@
 {
     padding: 2rem 1rem;
     margin-left: 6rem;
-    margin-top: -20rem;
+    margin-top: -10rem;
     width: 85vw;
 }
 .home .project-nav{
@@ -509,10 +416,34 @@
 {
     padding: 2rem 1rem;
     margin-left: 6rem;
-    margin-top: -25rem;
+    margin-top: -10rem;
     width: 85vw;
 
 }
+.services-container{
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.services-box .services-info{
+    max-height: 110px;
+    padding: 2rem 2rem;
+}
+.services-info img{
+    max-height: 70px;
+}
+
+.services-type{
+    font-size: 1.5rem;
+}
+
+.services-box:hover .services-info img{
+    margin-top: 0.5rem;
+    transition: 0.4s ease-out;
+    max-height: 50px;
+}
+
+
 .home .skill-nav{
     top: 10%;
     left: 4%;
@@ -521,7 +452,8 @@
 #contact{
     padding: 2rem 1rem;
     margin-left: 8rem;
-    margin-top: -20rem;
+    margin-top: -10rem;
+    background: transparent;
     width: 80vw;
  }
 
@@ -550,7 +482,7 @@
           border-radius: 50%;
           position: fixed;
           left: 6%;
-          top: 60%;
+          top: 80%;
           background: transparent;
       
       }

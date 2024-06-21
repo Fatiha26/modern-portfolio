@@ -58,7 +58,7 @@ body{
     flex-direction: column;
     padding: 2rem 3rem;
     position: absolute;
-    /* /*z-index: 9999;* */
+    z-index: 9999;
     left: 5%;
     top: 23%;
     border-right: 2px solid #2E279D;
