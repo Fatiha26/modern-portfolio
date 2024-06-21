@@ -203,20 +203,20 @@
 
 
 @media(max-width:412px){
+    
     .header{
         padding: 2rem 10% 2rem;
       }
-      .logo{
+    .logo{
         font-size: 2.2rem;
        }
-       .logo span{
+    .logo span{
         font-size: 2rem;
-    }
-       .navbar{
+       }
+    .navbar{
         position: absolute;
-        /* /*z-index: 9999;* */
-        left: 5%;
-        top: 20%;
+        left: 2%;
+        top: 18%;
         border-right: none;
     }
     .navbar a i{
@@ -233,11 +233,10 @@
         display: none;
     }
 
-        .home{
-            padding-top: 10rem;
-            padding-bottom: 2rem;
+    .home{
+            padding-top: 12rem;
         }
-    
+   
     .home-content h3{
         font-size: 2.2rem;
     }
@@ -256,7 +255,8 @@
         height: 80%;
         margin-left: 2rem;
     }
-
+    
+/*
 #about
 {
     padding: 0;
@@ -385,5 +385,5 @@
         font-size: 3rem;
     }
 
-
+*/
 }

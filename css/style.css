@@ -32,18 +32,9 @@ body{
 }
 
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     padding: 2rem 8% 1rem;
     background: var(--bg-color);
-    backdrop-filter: blur(100px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 5;
-
 }
 
 .logo{
@@ -111,15 +102,12 @@ body{
     display: none;
 }
 
-section{
-    min-height: 100vh;
-    padding: 6rem 10% 5rem;
-}
-
 .home{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15rem;
+    position: relative;
+    margin-top: 2rem;
 }
 .home-content{
     display: flex;
@@ -130,7 +118,7 @@ section{
     right: 0;
     position: absolute;
     width: 65vw;
-    margin: 3rem 6rem;
+    margin: 0rem 6rem;
 }
 
 span{
@@ -153,22 +141,6 @@ span{
 }
 
 
-.home-img img{
-    position: relative;
-    top: 3rem;
-    width: 26vw;
-    height: 70vh;
-    border-radius: 3rem;
-    box-shadow: 0 0 1px var(--img-color);
-    cursor: pointer;
-    transition: 0.4s ease-in-out;
-}
-
-.home-img img:hover{
-    box-shadow: 0 0 5px var(--main-color),
-                0 0 10px var(--main-color),
-                0 0 40px var(--main-color),;
-}
 
 .home-content p{
     font-size: 1.5rem;
@@ -696,52 +668,20 @@ section.contact{
     font-size: 2rem;
 }
 
+
+
+
 footer{
-    background: #B4D4FF;
-    text-align: center;
-}
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
 
-.footer-text{
-    padding: 2rem 0;
+}
+.footer-text p{
+    background-color: #3572EF;
+    color: #fff;
     font-size: 1.5rem;
-    font-weight: 600;
-    color: #2E279D;
+    text-align: center;
+    padding: 1rem 0;
 }
-
-
-.scroll-btn
-{
-    width: 50px;
-    height: 48px;
-    background: transparent;
-    border-radius: 50%;
-    position: fixed;
-    right: 6%;
-    bottom: 30px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(255,255,255,0.5);
-    scroll-behavior: smooth;
-
-}
-.scroll-btn:hover
-{
-    transition: 0.5s ease-out;  
-    color: #000; 
-    border: 1px solid #2E279D;
-}
-
-.scroll-btn i
-{
-    font-size: 25px;
-    padding-left: 12px;
-    padding-top: 11px;
-    color: #000;
-}
-
-.scroll-btn i:hover
-{
-    color: #1e272e;
-    transition: 0.5s ease-out;
-}
-
-
