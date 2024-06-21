@@ -11,90 +11,167 @@
     }
 }
 @media(max-width:991px){
-    header{
-        padding: 2rem 3%;
+    .logo{
+        font-size: 4rem;
     }
-    .home-img{
-        width: 100%;
+        .navbar a i{
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            
+        }
+        .home{
+            padding-top: 80rem;
+        }
+        .home-content{
+            padding-top: 10rem;
+    
+        }
+    
+        .home-content h3{
+            font-size: 2.6rem;
+        }
+        .home-content h1{
+            font-size: 8rem;
+            margin-top: 3rem;
+        }
+        .home-content p{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #about
+        {
+            padding: 0;
+            width: 65vw;
+            margin-top: -80rem;
+        }
+        .about-nav{
+            top: 10%;
+            left: 4%;
+        }
+        .section-container{
+            margin-top: 2rem;
+            grid-template-columns: repeat(1,1fr); 
+            gap: 3rem;
+            width: 67vw;
+            gap: 2rem;
+           padding: 1rem 1rem;
+        }
+        .about-pic{
+            width: 50vw;
+            height: 50vh;
+        }
+       
+        .text-container p{
+            font-size: 1.3rem;
+        
+        }
+       
+        .details-container i{
+            font-size: 4rem;
+        }
+    
+        .education{
+            margin-left: 28rem;
+            width: 70vw;
+            margin-top: -90rem;
+        
+        }
+        .timeline-content{
+            padding: 15px 25px;
+        }
+        .timeline-content p{
+            font-size: 1rem;
+            line-height: 15px;
+        }
+        .timeline-content h3{
+            font-size: 1.2rem;
+        }
+        .timeline-content-inner{
+            grid-template-columns: repeat(2,1fr);
+            gap: 2rem;
+        }
+        .timeline-content-inner .certificate-img img{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .timeline-items{
+            padding: 0 1rem;
+          }
+          .timeline-dot
+          {
+            left: -10px;
+          }
+       
+        .services-container{
+            grid-template-columns: repeat(3,1fr);
+        }
+        .services
+        {
+            padding: 2rem 1rem;
+            margin-left: 23rem;
+            margin-top: -83rem;
+            width: 80vw;
+        
+        }
+    
+        #projects
+    {
+        padding: 2rem 1rem;
+        margin-left: 20rem;
+        margin-top: -83rem;
+        width: 80vw;
     }
-
-    .timeline-items::before{
-        left: 7px;
-    }
-    .timeline-item:nth-child(odd){
-        padding-right: 0;
-        text-align: left;
-    }
-    .timeline-item:nth-child(odd),
-    .timeline-item:nth-child(even){
-        padding-left: 37px;
-    }
-    .timeline-dot{
-        left: 0;
-    }
-    .services{
-        padding-bottom: 7rem;
-    }
-    .input-group{
-        width: 50vw;
-        margin: 2rem auto;
-        gap: 3rem;
-    }
-
     .project-container{
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
+        margin: 5rem 7rem;
     }
-    .project-btn{
-        margin-right: 1rem;
-        border: 1px solid #000;
-    }
-
-    .scroll-btn
-{
-    width: 50px;
-    height: 48px;
-    background: #2E279D;
-    border-radius: 50%;
-    position: fixed;
-    right: 6%;
-    bottom: 30px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(255,255,255,0.5);
-    scroll-behavior: smooth;
-
-}
+    #contact{
+        padding: 2rem 1rem;
+        margin-left: 25rem;
+        margin-top: -75rem;
+        width: 75vw;
+     } 
+        .footer-text{
+            font-size: 1.5rem;
+        }
+        .scroll-btn
+          {
+              width: 40px;
+              height: 38px;
+              border-radius: 50%;
+              position: fixed;
+              left: 8%;
+              top: 70%;
+              background: transparent;
+          
+          }
+          .scroll-btn i
+          {
+              font-size: 20px;
+              padding-left: 10px;
+              padding-top: 10px;
+              color: #000;
+          }
 
 }
 
 @media(max-width:895px){
-  .header{
-    padding: 4rem 10% 3rem;
-  }
-  .logo{
+
+.logo{
     font-size: 4rem;
 }
-    .navbar{
-    padding: 1rem 1rem;
-    left: 7%;
-    top: 38%;
-
-    }
-    .navbar a:hover,
-     .navbar a.active{
-    color: var(--main-color);
-     }
-    .navbar.active{
-        display: block;
-    }
-
     .navbar a i{
         font-size: 2rem;
         margin-bottom: 1rem;
         
     }
     .home{
-        padding-top: 30rem;
+        padding-top: 80rem;
+    }
+    .home-content{
+        padding-top: 10rem;
+
     }
 
     .home-content h3{
@@ -108,47 +185,121 @@
         max-width: 600px;
         margin: 0 auto;
     }
-    .home-img img{
-        width: 100%;
+    #about
+    {
+        padding: 0;
+        width: 65vw;
+        margin-top: -80rem;
     }
-
-    .services h2{
-        margin-bottom: 3rem;
+    .about-nav{
+        top: 10%;
+        left: 4%;
     }
-    .services-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-
     .section-container{
         margin-top: 2rem;
-        grid-template-columns: repeat(1,1fr);
-     }
-     .about-container{
-         margin-top: 1rem;
-     }
-     .about-page-container{
-        margin-bottom: 50rem;
-     }
-     .section-container{
+        grid-template-columns: repeat(1,1fr); 
+        gap: 3rem;
+        width: 67vw;
         gap: 2rem;
-        padding: 1rem 1rem;
-     }
-     .details-container i{
-         font-size: 4rem;
-     }
-     section.contact{
-         min-height: 40vh;
-      }
-      .timeline-items{
+       padding: 1rem 1rem;
+    }
+    .about-pic{
+        width: 50vw;
+        height: 50vh;
+    }
+   
+    .text-container p{
+        font-size: 1.3rem;
+    
+    }
+   
+    .details-container i{
+        font-size: 4rem;
+    }
+
+    .education{
+        margin-left: 28rem;
+        width: 70vw;
+        margin-top: -90rem;
+    
+    }
+    .timeline-content{
+        padding: 15px 25px;
+    }
+    .timeline-content p{
+        font-size: 1rem;
+        line-height: 15px;
+    }
+    .timeline-content h3{
+        font-size: 1.2rem;
+    }
+    .timeline-content-inner{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    .timeline-content-inner .certificate-img img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .timeline-items{
         padding: 0 1rem;
       }
       .timeline-dot
       {
         left: -10px;
       }
+   
+    .services-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .services
+    {
+        padding: 2rem 1rem;
+        margin-left: 23rem;
+        margin-top: -83rem;
+        width: 80vw;
+    
+    }
+
+    #projects
+{
+    padding: 2rem 1rem;
+    margin-left: 20rem;
+    margin-top: -83rem;
+    width: 80vw;
+}
+.project-container{
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin: 5rem 7rem;
+}
+#contact{
+    padding: 2rem 1rem;
+    margin-left: 25rem;
+    margin-top: -75rem;
+    width: 75vw;
+ } 
     .footer-text{
         font-size: 1.5rem;
     }
+    .scroll-btn
+      {
+          width: 40px;
+          height: 38px;
+          border-radius: 50%;
+          position: fixed;
+          left: 8%;
+          top: 70%;
+          background: transparent;
+      
+      }
+      .scroll-btn i
+      {
+          font-size: 20px;
+          padding-left: 10px;
+          padding-top: 10px;
+          color: #000;
+      }
 }
 
 @media(max-width:700px){
@@ -227,10 +378,11 @@
         padding-top: 0.5rem;
         
     }
-
-    .tooltip{
-        display: none;
+    .tooltip
+    {
+        z-index: 9999;
     }
+
 .home-content{
     margin-top: 5rem;
 }
@@ -261,7 +413,7 @@
 #about
 {
     padding: 0;
-    margin-left: 8rem;
+    margin-left: 10rem;
     width: 80vw;
     margin-top: -20rem;
 }
@@ -273,7 +425,7 @@
 .section-container{
    grid-template-columns: repeat(1,1fr);
    gap: 4rem;
-   width: 80vw;   
+   width: 50vw;   
 }
 
      .about-container{
@@ -281,7 +433,7 @@
         gap: 2rem;
         margin-bottom: 2rem;
         margin-top: 1rem;
-        width: 60%;
+        width: 70vw;
          
      }
      .details-container{
@@ -291,13 +443,12 @@
     }
 
      .about-pic{
-        width: 60vw;
+        width: 70vw;
         height: 30vh;
-        margin-left: 3rem;
      }
      .text-container p{
          font-size: 1.2rem;
-         width: 60%;
+         width: 70vw;
 
        }
      .section-container{
@@ -359,7 +510,7 @@
     padding: 2rem 1rem;
     margin-left: 6rem;
     margin-top: -25rem;
-    width: 90vw;
+    width: 85vw;
 
 }
 .home .skill-nav{
@@ -398,8 +549,8 @@
           height: 38px;
           border-radius: 50%;
           position: fixed;
-          bottom: 15px;
-          left: 0;
+          left: 6%;
+          top: 60%;
           background: transparent;
       
       }
@@ -409,13 +560,7 @@
          color: #000; 
          border: 1px solid #2E279D;
      }
-      .scroll-btn i
-{
-    font-size: 20px;
-    padding-left: 12px;
-    padding-top: 11px;
-    color: #000;
-}
+
 
 
 }
